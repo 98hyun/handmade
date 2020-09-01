@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h3 class="text-center">Posts</h3>
+	<br>
+	<ul class="list-group post">
+		{% for page in pages %}
+		    <a class="text-center list-group-item" href="{{ url_for('page',path=page.path) }}">{{ page.title }}</a>
+		{% endfor %}
+	</ul>
+{% endblock content %}

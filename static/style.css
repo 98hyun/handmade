@@ -1,0 +1,63 @@
+body{
+    font-size: 1.5rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #eeeeee;
+    color:#eeeeee;
+}
+.container{
+    background-color:black;
+    border: 0.1px solid #eeeeee ;
+    border-radius: 3px;
+}
+.nav{
+    margin: 5px;
+}
+.avatar{
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    height: auto;
+	padding: 0px;
+}
+h1,h2,h3,h4,h5{
+    margin: 20px 0px;
+    color:#eeeeee;
+    font-weight: 450;
+}
+.tag{
+    font-size:0.5em;
+}
+hr{
+    border-top:1px solid #eeeeee;
+}
+.social{
+    margin-bottom: 20px;
+}
+.post{
+    width: 65%;
+    margin: auto;
+}
+.list-group-item{
+    background-color:black;
+    border: .1px solid #eeeeee;
+}
+.list-group{
+    padding: 0px;
+    width: 650px;
+}
+a{
+    color:#eeeeee;
+}
+a:hover{
+    color:#d3cece;
+}
+pre{
+    color:#eeeeee;
+    font-size: .9rem;
+}
+.codehilite{
+    background-color: black;
+}
+.codehilite .err {
+    border: black;
+}

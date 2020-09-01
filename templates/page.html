@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<div class="container post">
+		<hr>
+	    <h3>{{ page.title }}</h3>
+	    <p class="tag"><strong>Author:</strong> {{ page.author }}</p>
+	    <p class="tag"><strong>Published:</strong> {{ page.published }}</p>
+        {% include "list.html" %}
+        <hr>
+        {{page.html|safe}}
+    </div>
+{% endblock content %}
